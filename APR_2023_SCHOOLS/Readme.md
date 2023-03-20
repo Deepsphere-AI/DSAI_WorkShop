@@ -1,0 +1,1 @@
+Workshop for AI schools
