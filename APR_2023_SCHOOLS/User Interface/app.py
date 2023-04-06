@@ -37,7 +37,7 @@ with st.sidebar:
     st.sidebar.markdown(href, unsafe_allow_html=True)
 #--------------function calling-----------#
 if __name__ == "__main__":
-    # try:
+    try:
         if selected == "Select Application":
             pass
             st.markdown("<hr style=height:2.5px;background-color:gray>",unsafe_allow_html=True)
@@ -47,5 +47,5 @@ if __name__ == "__main__":
             Classification()
         if selected == "Clustering":
             Clustering()
-    # except BaseException as error:
-    #     st.error(error)
+    except BaseException as error:
+        st.error(error)
